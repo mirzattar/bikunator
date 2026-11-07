@@ -1,4 +1,6 @@
-# bun-react-template
+# Bikunator
+
+View raw Bikun Tracker SSE payloads.
 
 To install dependencies:
 
