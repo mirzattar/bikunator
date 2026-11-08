@@ -27,6 +27,9 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2.2.0
 
+      - name: Install deps
+        run: bun i
+
       # Runs a set of commands using the runners shell
       - name: Build
         run: bun build src/index.html --target=browser --outdir=out
