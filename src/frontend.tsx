@@ -15,7 +15,6 @@ const app = (
 	<StrictMode>
 		<Theme accentColor="yellow" radius="small" appearance="dark">
 			<App sseEndpoint="https://api.v2.bikun.ui.ac.id/sse" />
-			{ process.env.NODE_ENV !== "production" && <ThemePanel /> }
 		</Theme>
 	</StrictMode>
 )
